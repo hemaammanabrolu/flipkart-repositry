@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="index.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light  bg-primary " style="height:66px;">
+    
+      <a class="navbar-brand d-flex text-white" href="#" >
+        <img src="https://www.indianbodybuilding.co.in/products/wp-content/uploads/2015/08/Flipkart-Logo.png" alt="" width="55">
+       <h4 style="padding-left:6px;">flipkart</h4></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="d-flex" >
+        <input class="form-control " type="search" placeholder="Search for products,brands and more " aria-label="Search">
+        <span class="input-group-text  bg-white text-primary " id="search-addon" >
+          <i class="fa-solid fa-magnifying-glass fa-lg "></i>
+          </span>
+          <button class="btn btn-outline-primary bg-white align-items-center" type="submit" style="margin-left:20px; width:130px; border-radius:0px"><b>Login</b></button>
+      </form>
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white m-3" aria-current="page" href="#" style="padding-left: 30px;"><b><h5>Become a seller</h5></b></a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle m-3 text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size:18px">
+              <b>More</b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">notifications</a></li>
+              <li><a class="dropdown-item" href="#">Advertise</a></li>
+              
+              <li><a class="dropdown-item" href="#">Download</a></li>
+            </ul>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" id="nav_i" style="padding-top:25px;padding-left:30px;"><i class="fa-solid fa-shopping-cart"></i><b style="padding-left:5px;">Cart</b></a>
+        </li>
+          
+        </ul>
+        
+      </div>
+      
+    
+  </nav>
+
+  <!-- main grid -->
+
+<div class="container-fluid d-flex " style="height: 150px; background-color:white;  padding-top:25px;">
+  <div class="container">
+   <div class="row ">
+      <div class="col-1 " style="padding-left:60px;" >
+         <img src="https://pcpskirana.co.in/wp-content/uploads/2021/06/grocery_flour_fortune_besan-1.png" alt="#" width="70px">
+      <div  style="padding-left:7px; padding-top: 10px;"><h6>Grocery</h6></div></div>
+      <div class="col-1 " style="padding-left:75px;" >
+        <img src="https://cdn1.smartprix.com/rx-i9lW2ZbX5-w1200-h1200/9lW2ZbX5.jpg" alt="#" width="60px"  >
+      <div  style="padding-top:7px;"><h6>Mobiles</h6></div></div>
+        <div class="col-1 " style="padding-left:80px;" >
+          <img src="https://cdn.shopclues.com/images1/thumbnails/91510/640/1/140407565-91510723-1674400431.jpg" alt="#" width="70px">
+        <div  style="padding-top:6px;"><h6>Fashion</h6></div></div>
+          <div class="col-1" style="padding-left:90px;"  >
+            <img src="https://img.freepik.com/premium-photo/home-appliances-gas-cooker-tv-cinema-refrigerator-air-conditioner-microwave-laptop-washing-machine_252025-693.jpg" alt="#" width="100px"  >
+            <div style="padding-top:8px;"><h6>Electronics</h6></div></div>
+            <div class="col-1" style="padding-left:120px; padding-top: 5px;" >
+              <img src="https://m.media-amazon.com/images/I/51UObHMVH3L._AC_UL400_.jpg" alt="#" width="80px">
+              <div style="padding-left:10px;"><h6>Home</h6></div></div>
+              <div class="col-1"style="padding-left:120px;" >
+                <img src="https://cdn.thinglink.me/api/image/792008968430944257/640/10/scaletowidth?e=" alt="#" width="130px"  >
+              <div style="padding-left:40px; padding-top: 10px;"><h6>Travel</h6></div></div>
+                <div class="col-1" style="padding-left:170px;" >
+                  <img src="data:image/jpeg;base64,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" alt="#" width="80px">
+                <div style="padding-left:10px;"><h6>Applications</h6></div></div>
+                  <div class="col-1"style="padding-left:160px;" >
+                    <img src="https://thumbs.dreamstime.com/b/gift-box-16411884.jpg" alt="#" width="80px"  >
+                  <div style="padding-left: 20px;"><h6>Offers</h6></div></div>
+                    <div class="col-1"style="padding-left:150px;" >
+                      <img src="https://media.istockphoto.com/id/909772478/photo/brown-teddy-bear-isolated-in-front-of-a-white-background.jpg?s=612x612&w=0&k=20&c=F4252bOrMfRTB8kWm2oM2jlb9JXY08tKCaO5G_ms1Uw=" alt="#" width="120px"  >
+                    <div style="padding-left:10px;"><h6>Beauty,toys&more</h6></div></div>
+
+
+        </div>
+      </div>
+         
+    </div>
+  
+
+  </div>
+</div>
+
+<!-- carousel -->
+
+<div class="container " style="padding:9px 1px 0px 0px; max-width: max-content;">
+
+ <div class ="container-fluid " style="padding:0px 0px 0px 1px; height: 410px;background-color:inherit;"> 
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="padding:0px 0px 0px 0px;height: 350px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/b22dfa1a407a355d.jpg?q=50" class="d-block w-100" alt="#" style="height:400px;">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/844/140/image/6a9a971201344e05.jpg?q=50" class="d-block w-100" alt="#" style="height: 400px;">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/b2ba44373f71b63c.jpg?q=50" class="d-block w-100" alt="#" style="height: 400px;">
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev"style="padding-left: 0px;">
+      <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+      <span class="visually-hidden ">Previous</span>
+    </button>
+    
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ </div>
+</div>
+
+<!-- grid-1 -->
+
+ <div class="container-fluid"style="padding-top:0px;height:0px; padding-bottom:0px;">
+  <div class=" container-fluid"style="padding-top:0px 6px 0px 0px;" >
+   <div class="row" >
+    <div class="col-2" >
+    <h2 style="padding-left:70px;padding-top:100px; ">Best of </h2>
+     <h2 style="padding-left:50px;top: 10px;">Electronics </h2>
+   <div class="float-center" style="padding-left: 80px;padding-top: 30px;"  >
+  <button  type="button" class="btn btn-primary  " style="border-radius: 0px;"><h6 >VIEW ALL</h6></button>
+   </div>
+   <div style="background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);width:240px;background-position: 0px bottom;background-repeat: no-repeat;padding-top: 110px;height:120px;">
+  </div>
+    
+    </div>
+    <div class= "col-2">
+    <img src=" https://rukminim1.flixcart.com/image/200/200/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70" style="padding-top:40px ;width: 240px;padding-left: 10px;">
+   <h6 style="padding-top:29px;padding-left: 40px;">Top Mirrorless Cameras</h6>
+   <h5  style="padding-left: 70px;padding-top: 8px;color:#388e3c;;">Shop Now!</h5>
+   <p style="padding-left: 40px;">Canon,Sony,Fujifilm...</p>       
+</div>
+<div class= "col-2">
+  <img src=" https://rukminim1.flixcart.com/image/200/200/xif0q/power-bank/d/a/f/-original-imagky3e8yp5ebvr.jpeg?q=70"style ="padding-top:5px;padding-left:50px;width:230px">
+ <h6 style="padding-top:35px;padding-left: 50px;">Best Phones Collection </h6>
+ <h5  style="padding-left: 90px;padding-top: 8px;color:#388e3c;;">Shop Now!</h5>
+ <p style="padding-left: 43px;">realme,Readmi & more</p>       
+</div>
+<div class= "col-2">
+  <img src=" https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70"style ="padding-top:55px;padding-left:50px;width:270px">
+ <h6 style="padding-top:45px;padding-left: 120px;">Printers</h6>
+ <h5  style="padding-left: 90px;padding-top: 8px;color:#388e3c;;">From <i class="fa-sharp fa-solid fa-indian-rupee-sign fa-sm"></i>3999</h5>
+ <p style="padding-left: 130px;">HP</p>       
+</div>
+<div class= "col-2" style="overflow: hidden;">
+  <img src=" https://rukminim1.flixcart.com/image/200/200/l5ld8y80/monitor/l/k/s/-original-imagg897ufhyvwqq.jpeg?q=70"style ="padding-top:40px;padding-left:50px;width:270px">
+ <h6 style="padding-top:20px;padding-left: 120px;">Monitors</h6>
+ <h5  style="padding-left: 90px;padding-top: 8px;color:#388e3c;;">From <i class="fa-sharp fa-solid fa-indian-rupee-sign fa-sm"></i>9999</h5>
+ <p style="padding-left: 100px;">SAMSUNG</p>       
+</div>
+
+<div class="col-2">
+  <div class="box">
+  <img src="https://rukminim1.flixcart.com/fk-p-flap/464/708/image/dc4ec6cc887ab17b.jpg?q=70"style="width:235px;padding-top:5px">
+</div>
+</div>
+     </div> 
+  
+</div>
+
+
+
+<!-- grid-2 -->
+ 
+<p>
+  <div class=" container-fluid"style="padding:0px 0px 0px 0px;" >
+   <div class="row " >
+    <div class="col-2" >
+    <h2 style="padding-left:35px;padding-top:100px; ">Beauty,Food, </h2>
+     <h2 style="padding-left:50px;top: 10px;">Toys&more  </h2>
+   <div class="float-center" style="padding-left: 80px;padding-top: 30px;"  >
+  <button  type="button" class="btn btn-primary  " style="border-radius: 0px;"><h6 >VIEW ALL</h6></button>
+   </div>
+   <div style="background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);width:240px;background-position: 0px bottom;background-repeat: no-repeat;padding-top: 110px;height:120px;">
+  </div>
+    
+    </div>
+    <div class= "col-2">
+    <img src=" https://rukminim1.flixcart.com/image/200/200/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=70" style="padding-top:70px ;width: 240px;padding-left: 10px;">
+   <h6 style="padding-top:50px;padding-left: 80px;">Gread cycles</h6>
+   <h5  style="padding-left: 70px;padding-top: 8px;color:#388e3c;;">From <i class="fa-sharp fa-solid fa-indian-rupee-sign fa-sm"></i>3999</h5>
+   <p style="padding-left: 40px;">Leader,Cradic&more</p>       
+</div>
+<div class= "col-2">
+  <img src=" https://rukminim1.flixcart.com/image/200/200/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=70"style ="padding-top:60px;padding-left:30px;width:240px">
+ <h6 style="padding-top:20px;padding-left: 50px;">Remote Control Toys </h6>
+ <h5  style="padding-left: 50px;padding-top: 8px;color:#388e3c;;">Up to 80% off</h5>
+ <p style="padding-left: 70px;">Buy Now!</p>       
+</div>
+<div class= "col-2">
+  <img src=" https://rukminim1.flixcart.com/image/200/200/kc3p30w0/headphone/i/h/z/k52-akg-original-imaftb5hptnuajfu.jpeg?q=70"style ="padding-top:55px;padding-left:50px;width:215px">
+ <h6 style="padding-top:10px;padding-left: 75px;">Studio Headphones</h6>
+ <h5  style="padding-left: 70px;padding-top: 8px;color:#388e3c;;">Up to 80% off</h5>
+ <p style="padding-left: 90px;">Explore Now!</p>       
+</div>
+<div class= "col-2" >
+  <img src=" https://rukminim1.flixcart.com/image/200/200/acoustic-guitar/e/y/y/dd-380c-blk-jixing-original-imaeff94e9tczafp.jpeg?q=70"style ="padding-top:50px;padding-left:5px;width:210px">
+ <h6 style="padding-top:15px;padding-left: 80px;">String Instruments</h6>
+ <h5  style="padding-left: 90px;padding-top: 8px;color:#388e3c;;">Up to 70% off</h5>
+ <p style="padding-left: 50px;">Gutiars,Ukuleles & More</p>       
+</div>
+
+<div class="col-2">
+  <img src="https://rukminim1.flixcart.com/image/200/200/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=70"style="width:220px;padding-top:30px;padding-left:30px;">
+  <h6 style="padding-top:20px;padding-left: 80px;">Food Spreads</h6>
+  <h5  style="padding-left: 70px;padding-top: 8px;color:#388e3c;;">Up to 70% off</h5>
+  <p style="padding-left: 50px;">Myfiness,Alpino & More</p>
+</div>
+     </div> 
+  
+</div>
+</p>
+ 
+
+ <!-- grid-3 -->
+ <p>
+  <div class=" container-fluid d-grid "style="padding:0px 0px 0px 0px;" >
+   <div class="row" >
+    <div class="col-2" >
+    <h2 style="padding-left:70px;padding-top:100px; ">Home & Kitchen</h2>
+     <h2 style="padding-left:50px;top: 10px;">Essentials</h2>
+   <div class="float-center" style="padding-left: 80px;padding-top: 30px;"  >
+  <button  type="button" class="btn btn-primary  " style="border-radius: 0px;"><h6 >VIEW ALL</h6></button>
+   </div>
+   <div style="background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90);width:240px;background-position: 0px bottom;background-repeat: no-repeat;padding-top: 110px;height:100px;">
+  </div>
+    
+    </div>
+    <div class= "col-2">
+    <img src=" https://rukminim1.flixcart.com/image/200/200/k3j1z0w0/ceiling-lamp/w/7/r/gold-01-classical-original-imafmbywhhurgf6b.jpeg?q=70" style="padding-top:40px ;width: 225px;padding-left: 10px;">
+   <h6 style="padding-top:29px;padding-left: 60px;">Decor Lightings</h6>
+   <h5  style="padding-left: 50px;padding-top: 8px;color:#388e3c;;">Up to 80% off</h5>
+   <p style="padding-left: 60px;">Big Discounts</p>       
+</div>
+<div class= "col-2">
+  <img src=" https://rukminim1.flixcart.com/image/200/200/k5e7o280/wall-clock/6/h/j/designer-wall-clock10-cw-ct-red25412-analog-ajanta-original-imafzyx3fdtf2hcb.jpeg?q=70"style ="padding-top:40px;padding-left:10px;width:230px">
+ <h6 style="padding-top:20px;padding-left: 80px;">Clocks </h6>
+ <h5  style="padding-left: 40px;padding-top: 8px;color:#388e3c;;">Up to 80% off</h5>
+ <p style="padding-left: 47px;">Big Discounts</p>       
+</div>
+<div class= "col-2">
+  <img src="https://rukminim1.flixcart.com/image/200/200/kz8qsnk0/mosquito-net/h/1/p/double-bed-polyester-adults-blue-mosquito-net-double-bed-nets-original-imagbagfgnfvnquj.jpeg?q=70"style ="padding-top:30px;padding-left:20px;width:250px">
+ <h6 style="padding-top:25px;padding-left: 80px;">Mosquito Nets</h6>
+ <h5  style="padding-left: 90px;padding-top: 6px;color:#388e3c;;">From <i class="fa-sharp fa-solid fa-indian-rupee-sign fa-sm"></i>149</h5>
+ <p style="padding-left: 80px;">Best Deal Price</p>       
+</div>
+<div class= "col-2">
+  <img src="https://rukminim1.flixcart.com/image/200/200/power-hand-tool-kit/v/v/g/gsb-500-re-kit-bosch-original-imaeg63dbybtqzfy.jpeg?q=70"style ="padding-top:40px;padding-left:40px;width:270px">
+ <h6 style="padding-top:10px;padding-left: 75px;">Power and Hand kit </h6>
+ <h5  style="padding-left: 90px;padding-top: 8px;color:#388e3c;;">From <i class="fa-sharp fa-solid fa-indian-rupee-sign fa-sm"></i>399</h5>
+ <p style="padding-left: 100px;">Best selling</p>       
+</div>
+
+<div class="col-2">
+  <img src="https://rukminim1.flixcart.com/image/200/200/jvmpci80/bedsheet/d/4/s/pure-cotton-printed-flat-double-bedsheet-with-2-pillow-cover-original-imaessyzwzwyhfdm.jpeg?q=70"style="width:220px;padding-top:30px;padding-left:20px">
+  <h6 style="padding-top:20px;padding-left: 90px;">Bed covers</h6>
+  <h5  style="padding-left: 90px;padding-top: 8px;color:#388e3c;;">From <i class="fa-sharp fa-solid fa-indian-rupee-sign fa-sm"></i>199</h5>
+  <p style="padding-left: 80px;">Trendy Collection</p> 
+</div>
+     </div> 
+  </div>
+   
+  </p>
+
+  <!-- footer -->
+  
+    <div class="container-fluid">
+      
+      <footer class="mainfooter" role="contentinfo">
+          <div class="footer-middle">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <!--Column1-->
+                          <div class="footer-pad">
+                              <h6>Help</h6>
+                              <address>
+                                  <ul class="list-unstyled">
+                                      <li><a href="#">Payments</a></li>
+                                      <hr>
+                                      <li><a href="#">Shipping</a></li>
+                                      <hr>
+                                      <li><a href="#">Cancellation & Returns</a></li>
+                                      <hr>
+                                      <li><a href="#">FAQ</a></li>
+                                      <hr>
+                                      <li><a href="#">Report Infringement</a></li>
+                                      
+                                  </ul>
+                              </address>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <!--Column1-->
+                          <div class="footer-pad">
+                              <h6>Flipkart</h6>
+                              <ul class="list-unstyled">
+                                  <li><a href="#">Contact Us</a></li>
+                                  <hr>
+                                  <li><a href="#">About Us</a></li>
+                                  <hr>
+                                  <li><a href="#">Careers</a></li>
+                                  <hr>
+                                  <li><a href="#">Flipkart Stories</a></li>
+                                  <hr>
+                                  <li><a href="#">Press</a></li>
+                                  
+                                  
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <!--Column1-->
+                          <div class="footer-pad">
+                              <h6>Misc</h6>
+                              <ul class="list-unstyled">
+                                  <li><a href="#">Online Shopping</a></li>
+                                  <hr>
+                                  <li><a href="#">Affiliate Program</a></li>
+                                  <hr>
+                                  <li><a href="#">Gift Card</a></li>
+                                  <hr>
+                                  <li><a href="#">Flipkart First Subscription</a></li>
+                                  <hr>
+                                  <li><a href="#">Sitemap</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm" id="footer_g1"><i class="fas fa-map-marker"></i>
+                          TRACK YOUR <br> ORDER
+                      </div>
+                      <div class="col-sm" id="footer_g1"><i class="fas fa-sync"></i>
+                         FREE AND EASY <br>RETURNS
+                      </div>
+                      <div class="col-sm" id="footer_g1"><i class="far fa-times-circle"></i>
+                          ONLINE <br>CANCELLATIONS
+                      </div>
+                  </div>
+                  <br>
+                  <div class="row" id="footer-kip">
+                      <div class="col-sm-8" style="padding-top: 5px;">
+                          <span>
+                              <span class="policies-title">Policies: </span>
+                              <a class="po" href="#" target="_blank" rel="noopener noreferrer">Returns Policy</a>
+                              <a class="po" href="#" target="_blank" rel="noopener noreferrer">Terms of use</a>
+                              <a class="po" href="#" target="_blank" rel="noopener noreferrer">Security</a>
+                              <a class="po" href="#" target="_blank" rel="noopener noreferrer">Privacy</a>
+                              <a class="po" href="#" target="_blank" rel="noopener noreferrer">Infringement</a>
+                          </span>
+                          <span class="_2tFDQF">© 2007-<!-- -->2018<!-- --> 
+                              <span class="">Flipkart.com.</span>
+                          </span>
+                      </div>
+                      <div class="col-sm-4">
+                          <span class="">Keep in touch</span>
+                          <i class="fab fa-facebook-square"></i>
+                          <i class="fab fa-twitter-square"></i>
+                          <i class="fab fa-google-plus-square"></i>
+                          <i class="fab fa-youtube"></i>
+                      </div>
+                  </div>
+              </div>
+              <hr>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 contact-border" id="contact-div" >
+                          <h6 id="contact-1">Mail Us:</h6>
+                          <ul>
+                              <li id="contact-2">Flipkart Internet Pvt Ltd Block B (Begonia),</li>
+                              <li id="contact-2">Ground Floor, Embassy Tech Village,</li>
+                              <li id="contact-2">Outer Ring Road, Devarabeesanahalli Village,</li>
+                              <li id="contact-2">Varthur Hobli, Bengaluru East Taluk,</li>
+                              <li id="contact-2">Bengaluru District,</li>
+                              <li id="contact-2">Karnataka, India, 560103.</li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-6" id="contact-div">
+                          <h6 id="contact-1">Registered Office Address:</h6>
+                          <ul>
+                              <li id="contact-2">Flipkart Internet Private Limited,</li>
+                              <li id="contact-2">Vaishnavi Summit, Ground Floor, 7th Main,</li>
+                              <li id="contact-2">80 Feet Road, 3rd Block,</li>
+                              <li id="contact-2">Koramangala,</li>
+                              <li id="contact-2">Bengaluru - 560034</li>
+                              <li id="contact-2">India</li>
+                              <li id="contact-2">CIN : U51109KA2012PTC066107</li>
+                              <li id="contact-2">Telephone: 1800 208 9898</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div id="footer-notes">
+                      <h6 id="footer-notes-h">Online Shopping in India</h6>
+                      <p id="footer-notes-c">Clothes, electronics, accessories - whatever your need for the hour maybe, Flipkart, your favorite online shopping site, is sure to spoil you with a wide range of products. You don't have to wait for the weekends to shop as you can shop online on your way back home after work. Almost all popular brands across categories sell their products online, thereby bringing you closer to your preferences. Oh, and let's not forget about the various discounts on these products which make them an offer that is too hard to resist. So, are you all set to head online and shop? Let's take a look at what Flipkart has in store for you, shall we?</p>
+                      <h6 id="footer-notes-h">Buy Electronics Online at Attractive Prices</h6>
+                      <p id="footer-notes-c">Appliances have become an integral aspect of managing your home. Take a walk through your home and you would know the number of appliances we use to help with our day-to-day activities. Just like how Joey points out in the popular sitcom Friends, all your furniture in your living room would be pointed towards the television. A walk into the kitchen and the work area would give you a glimpse into the importance of having a washing machine, a refrigerator and small appliances, such as a microwave oven, at your disposal. You no longer have to head to a store as you can buy electronics from Flipkart at delightful prices. Choose from an enticing range of products from popular brands such as Sony, Samsung, Philips, Apple and Xiaomi. What's more? You can have these products delivered to your doorstep. Some of the popular appliances that you can buy online include home theaters from Sony, audio players from Samsung, speakers from JBL and video accessories from Philips. That's not all, you also get to buy mobile phones online at great prices. Pick from a wide selection of smartphones which include popular Android phones, such as the Samsung S9 and the Redmi Note 5 and the range of Apple iPhones. All you have to do is open the Flipkart page, type the product of your choice and hit the search button. You'll then be exposed to a wide range of products to choose from.</p>
+                      <h6 id="footer-notes-h">Buy Clothes and Accessories Online - Variety at Your Fingertips</h6>
+                      <p id="footer-notes-c">Jewelry, shirts, T-shirts, trousers, handbags - name it and you will be spoilt for choice with a wide variety as you shop for accessories and clothes online. Go online shopping and pick from a wide range of products from your favorite brands which include United Colors of Benetton, Roadster, Woodlands, Wildcraft, Forever 21, Nike and more. While the men can choose from a large collection of apparels, footwear, accessories, and watches, the women can shop till they drop from the exhaustive range of kurtis, jewelry, ethnic wear and grooming products online. You can find a wide collection of apparel for children too.</p>
+                      <h6 id="footer-notes-h">Buy Home and Furniture Items Online - Everything You Would Need for a Beautiful Pad</h6>
+                      <p id="footer-notes-c">A home looks complete when it is organized with different pieces of furniture that go with the decor. Don't compromise on your home decor as you can choose from an exhilarating range of home furnishing products online. From dining tables and sofa sets, to colorful bedsheets and intricate wall-clocks, you can find everything you need online. And the best part is, you can add all your preferred products to your cart and order them in one go. You also have the freedom to pay for the products from any of the payment methods available on the site. Some of the popular modes of payment include credit/debit card and cash on delivery.</p>
+                      <h6 id="footer-notes-h">History, Fiction, Fantasy - Buy Your Favorite Books Online</h6>
+                      <p id="footer-notes-c">Reading is a great way to expand your knowledge and enhance your creativity. While the works of RK Narayan or Durjoy Datta would take you through relatable emotions via interesting characters and situations, authors like JK Rowling and Stephen King have successfully given us a glimpse into an entirely different world brimming of magic and surrealism. Head to your favorite online shopping site and get set to be spoilt for choice with the variety of books which are available at your disposal. From a huge collection of bestsellers to hardbound copies of your favorite modern-day classics like Harry Potter, there are a number of stories to be read and explored across various genres. That's not all, you can also shop online for study materials to help you score better in competitive examinations. Whether you need a textbook to help you understand the basic concepts better or a study guide that has a solution to all your queries, you have access to some of the best study materials online. Flipkart has a wide range of books across categories such as children's books, audiobooks, computer books, cookery books, and handy guides. So, go ahead, order copies of your favorite books online and immerse yourself in a world with characters that stay with you, through thick and thin.</p>
+                      <h6 id="footer-notes-h">Buying Guides - Your Assistants in Helping You Buy the Most Suitable Products</h6>
+                      <p id="footer-notes-c">Sometimes, it can get a little overwhelming when you are exposed to a wide range of products. That's where the buying guides would come to your rescue. Flipkart has a set of guides that are specially curated to help you buy the right product across various categories. For example, if you would like to buy mobile phones online and are confused about what to pick, all you have to do is to click on the buying guide option. The guide will take you through the most important points to look for while buying a phone. You can also have a glance at the various reviews of the products posted by previous buyers that may help you make an informed buying decision. Convenient and simple, shop for your favorite appliances, gifts, and products online at Flipkart and let them arrive at your doorstep - one parcel at a time with a cheerful smile.</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+        
+                            
+      </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html> 

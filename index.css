@@ -1,0 +1,39 @@
+*{
+    padding-left:0px;
+    margin:0px;
+    
+}
+.navbar-brand{
+    padding-left:170px;
+    
+    
+}
+.form-control{
+    border-radius: 0px;
+    width:390px;
+    border-right-color: white;
+    padding-left: 10px;
+    
+    
+}
+.input-group-text{
+    border-color: white;
+    border-radius: 0px;
+}
+.container-fluid{
+    background-color: white;
+}
+html,body{
+    background-color: lavender;
+}
+.box{
+    background-color: #fff;
+    border: #ccc 0px solid;
+    padding: 0px;
+    display:block;
+    margin:0px;
+    justify-content: space-around;
+    gap: 1px;
+    
+    box-sizing: border-box;
+}

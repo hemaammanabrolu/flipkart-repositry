@@ -26,14 +26,3 @@
 html,body{
     background-color: lavender;
 }
-.box{
-    background-color: #fff;
-    border: #ccc 0px solid;
-    padding: 0px;
-    display:block;
-    margin:0px;
-    justify-content: space-around;
-    gap: 1px;
-    
-    box-sizing: border-box;
-}
